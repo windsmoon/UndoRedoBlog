@@ -11,7 +11,7 @@ namespace Windsmoon
         private Action<RaycastHit> undoAction;
         #endregion
 
-        #region properties
+        #region constructors
         public DestoryCubeCommand(Action<RaycastHit> excuteAction, Action<RaycastHit> undoAction, RaycastHit raycastHit)
         {
             this.excuteAction = excuteAction;
